@@ -1,0 +1,17 @@
+
+
+sudo apt-get install python-setuptools python-dev build-essential
+sudo apt-get install libmysqlclient-dev
+pip install MySQL-python
+
+
+
+virtualenv env
+env/bin/pip install flask
+env/bin/pip install flask-sqlalchemy
+env/bin/pip install flask-wtf
+env/bin/pip install mysql-python
+
+env/bin/pip install -U jsonpickle
+env/bin/pip install simplejson
+env/bin/pip install Redis
